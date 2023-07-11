@@ -1,0 +1,681 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Poppins:ital,wght@1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  
+}
+
+body{
+    background: rgb(120,143,225);
+    background: linear-gradient(90deg, rgba(120,143,225,1) 0%, rgba(12,81,217,1) 100%); 
+    
+   
+  
+}
+h1{
+    text-align: center;
+    display: block;
+    width:50%;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 10px;
+    }
+
+
+.main1{
+    display: flex;
+    justify-content: center;
+}
+.main1 img{
+    width: 287px;
+    height: 382px;
+    margin: 50px;
+ }
+
+ h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight:bold;
+    line-height: normal;
+    background: linear-gradient(#0F5595, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin: 10px;
+  } 
+   
+.main2 {
+    display: flex;
+    justify-content: center;
+ 
+  
+}
+
+.main2 img{
+    width: 80%;
+    height: 200px;
+    margin: 30px;
+    
+  }
+
+article {
+
+ display: flex;
+ justify-items: center;
+ align-items: center;
+margin: 30px;
+
+  }
+
+
+.carte{
+    width: 300px;
+    height: 65px;
+    border-radius: 15px;
+    background: #0F5595;
+    color: #FFFFFF;
+    
+}
+.carte2{
+    width: 300px;
+    height: 65px;
+    border-radius: 15px;
+    background: #0F5595;
+    color: #FFFFFF;
+    
+}
+.carte3{
+    width: 300px;
+    height: 65px;
+    border-radius: 15px;
+    background: #0F5595;
+    color: #FFFFFF;
+    
+}
+ 
+.carte img{
+    width: 40px;
+    object-fit: cover;
+    float: left;
+   
+}
+
+.main3{
+    display: flex;
+    justify-content: center;
+}
+
+
+.main3 img{
+    width: 80%;
+    height: 200px;
+    margin: 30px;
+    transform: translateY(-50px);
+    
+  }
+
+
+
+.localisation{
+    display: flex;
+    justify-content: center;
+}
+.localisation img{
+    transform: translateY(-70px);
+}
+
+.textbas{
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 15px;
+    transform: translateY(-70px);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.textbas2{
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 15px;
+    transform: translateY(-60px);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.textbas3{
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 15px;
+    transform: translateY(-50px);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.textbas4{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 9px;
+    transform: translateY(-30px);
+    text-transform: uppercase;
+    border-radius: 60px;
+    background: #788FE1;
+    color: #FFFFFF;
+    
+
+}
+
+.main4{
+    display: none;
+
+}
+
+.main5{
+    display: none;
+}
+
+.rectancle{
+    display: none;
+    height: 120px ;
+    width: 22%;
+    background-color: #788FE1;
+    border-radius: 15px;
+}
+
+
+  
+    @media only screen and (min-width : 1024px){
+
+        .main1{
+       position: absolute;
+       transform: translateY(-60px);
+    }
+    .main1 img{
+        display: block;
+        border-radius: 10px;
+        width: 80%;
+        height: 250px;
+       
+        
+         
+     }
+
+
+     .main2{
+        display: block;
+        position: absolute;
+        transform: translateY(310px);
+     }
+     .main2 img{
+        width: 80%;
+        height: 200px;
+        border-radius: 15px;
+
+         
+          
+      }
+
+      .main3{
+        display: block;
+        position: absolute;
+        transform: translateY(320px);
+
+       
+    
+    }
+      .main3 img {
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+        transform: translate(690px);
+     
+      
+
+      }
+    
+
+    .main4{
+        display: block;
+        position: absolute;
+        transform: translate(400px);
+       
+    
+    }
+      .main4 img {
+        width: 100%;
+        height: 200px;
+        
+
+      }
+      .main5{
+        display: block;
+        position: absolute;
+        transform: translate(790px);
+       
+    
+    }
+      .main5 img {
+        width: 130%;
+        height: 250px;
+        
+
+      }
+
+    .rectancle{
+        display: block;
+        position: absolute;
+        transform: translate(550px);
+        margin-top: 210px;
+        background-color: #788FE1;
+
+
+    }
+    .localisation{
+        display: block;
+        position: absolute;
+        transform: translate(730px);
+        margin-top: 310px;
+        z-index: 100;
+        
+       
+
+    }
+
+    .localisation img{
+        width: 100%;
+        height: 50px;
+        
+    }
+
+    .textbas{
+        display: block;
+        position: absolute;
+        transform: translate(570px);
+        margin-top: 240px;
+      
+    }
+
+    .textbas p{
+        font-size: 9px;
+        color: black;
+    }
+    .textbas2{
+        display: block;
+        position: absolute;
+        transform: translate(570px);
+        margin-top: 270px;
+    }
+
+    .textbas2 p {
+        font-size: 12px;
+        color: black;
+        text-transform: uppercase;
+    }
+    .textbas3{
+        display: block;
+        position: absolute;
+        transform: translate(570px);
+        margin-top: 290px;
+    }
+
+    .textbas3 p {
+        font-size: 9px;
+        color: black;
+    }
+    .textbas4{
+        display: block;
+        width: 20%;
+        height: 120px;
+        transform: translate(300px);
+        margin-top: 210px;
+        border-radius: 10px;
+    }
+    .textbas4 p{
+        font-size: 5px;
+        line-height: 7px;
+        color: black;
+        
+    }
+
+    h1{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    h2 {
+        display: block;
+        position: absolute;
+        transform: translateY(250px);
+        padding-left: 70px;
+        background: linear-gradient(#000,#000);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    
+    }
+    
+    .carte3{
+        height: 30px;
+        display: block;
+        position: absolute;
+        transform: translate(350px);
+        margin-top: 500px;
+      
+    }
+    .carte2{
+        height: 30px;
+        display: block;
+        position: absolute;
+        transform: translate(350px);
+        margin-top: 450px;
+      
+    }
+    .carte{
+        height: 50px;
+        display: block;
+        position: absolute;
+        transform: translate(350px);
+        margin-top: 380px;
+        
+        
+      
+    }
+
+    .carte img{
+        width: 40px;
+        object-fit: cover;
+        float: left;
+        
+        
+       
+    }
+
+    .carte p{
+        font-size: 12px;
+        margin-top: 3px;
+        padding-left: 30px;
+    }
+    .carte2 p{
+        font-size: 12px;
+        margin-top: 5px;
+        padding-left: 35px;
+    }
+    .carte3 p{
+        font-size: 12px;
+        margin-top: 5px;
+        padding-left: 40px;
+    }
+
+    .carte2 img{
+        width: 30px;
+        object-fit: cover;
+        float: left;
+       
+    }
+
+    .carte3 img{
+        width: 30px;
+        object-fit: cover;
+        float: left;
+       
+    }
+
+
+    }
+
+    @media only screen and (min-width : 1800px){
+
+        .main1{
+            position: absolute;
+            transform: translateY(-60px);
+         }
+         .main1 img{
+             display: block;
+             border-radius: 10px;
+             width: 80%;
+             height: 450px;
+            
+             
+              
+          }
+     
+     
+          .main2{
+             display: block;
+             position: absolute;
+             transform: translateY(590px);
+          }
+          .main2 img{
+             width: 80%;
+             height: 290px;
+             border-radius: 15px;
+     
+              
+               
+           }
+     
+           .main3{
+             display: block;
+             position: absolute;
+             transform: translateY(590px);
+     
+            
+         
+         }
+           .main3 img {
+             width: 100%;
+             height: 290px;
+             border-radius: 10px;
+             transform: translate(1440px);
+          
+           
+     
+           }
+         
+     
+         .main4{
+             display: block;
+             position: absolute;
+             transform: translate(690px);
+            
+         
+         }
+           .main4 img {
+             width: 100%;
+             height: 290px;
+             
+     
+           }
+           .main5{
+             display: block;
+             position: absolute;
+             transform: translate(1600px);
+            
+         
+         }
+           .main5 img {
+             width: 130%;
+             height: 300px;
+             
+     
+           }
+     
+         .rectancle{
+             display: block;
+             position: absolute;
+             transform: translate(1050px);
+             margin-top: 330px;
+             background-color: #788FE1;
+             width: 30%;
+            height: 190px;
+     
+         }
+         .localisation{
+             display: block;
+             position: absolute;
+             transform: translate(1450px);
+             padding-left: 80px;
+             margin-top: 450px;
+             z-index: 100;
+             
+            
+     
+         }
+     
+         .localisation img{
+             width: 100%;
+             height: 90px;
+             
+         }
+     
+         .textbas{
+             display: block;
+             position: absolute;
+             transform: translate(1100px);
+             margin-top: 350px;
+           
+         }
+     
+         .textbas p{
+             font-size: 15px;
+             color: black;
+         }
+         .textbas2{
+             display: block;
+             position: absolute;
+             transform: translate(1100px);
+             margin-top: 410px;
+         }
+     
+         .textbas2 p {
+             font-size: 18px;
+             color: black;
+             text-transform: uppercase;
+         }
+         .textbas3{
+             display: block;
+             position: absolute;
+             transform: translate(1100px);
+             margin-top: 450px;
+         }
+     
+         .textbas3 p {
+             font-size: 13px;
+             color: black;
+         }
+         .textbas4{
+             display: block;
+             width: 30%;
+             height: 190px;
+             transform: translate(400px);
+             margin-top: 330px;
+             border-radius: 10px;
+         }
+         .textbas4 p{
+             font-size: 9px;
+             line-height: 11px;
+             color: black;
+             
+         }
+     
+         h1{
+             width: 100%;
+             font-size: 20px;
+         }
+     
+         h2 {
+             display: block;
+             position: absolute;
+             transform: translateY(490px);
+             padding-left: 110px;
+             background: linear-gradient(#000,#000);
+             -webkit-background-clip: text;
+             -webkit-text-fill-color: transparent;
+         
+         }
+         
+         .carte3{
+             height: 30px;
+             display: block;
+             position: absolute;
+             transform: translate(750px);
+             margin-top: 850px;
+           
+         }
+         .carte2{
+             height: 30px;
+             display: block;
+             position: absolute;
+             transform: translate(750px);
+             margin-top: 800px;
+           
+         }
+         .carte{
+             height: 50px;
+             display: block;
+             position: absolute;
+             transform: translate(750px);
+             margin-top: 700px;
+             
+             
+           
+         }
+     
+         .carte img{
+             width: 40px;
+             object-fit: cover;
+             float: left;
+             
+             
+            
+         }
+     
+         .carte p{
+             font-size: 12px;
+             margin-top: 3px;
+             padding-left: 30px;
+         }
+         .carte2 p{
+             font-size: 12px;
+             margin-top: 5px;
+             padding-left: 35px;
+         }
+         .carte3 p{
+             font-size: 12px;
+             margin-top: 5px;
+             padding-left: 40px;
+         }
+     
+         .carte2 img{
+             width: 30px;
+             object-fit: cover;
+             float: left;
+            
+         }
+     
+         .carte3 img{
+             width: 30px;
+             object-fit: cover;
+             float: left;
+            
+         }
+     
+     
+         }
